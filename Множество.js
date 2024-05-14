@@ -6,7 +6,7 @@ for (let i = 0; i < setsize; i++) {
 }
 
 function add(x) {
-  myset[x % setsize].push(x);
+  myset[x % setsize].push(x); // Нужна проверка на отсутсвие такого элемента, иначе - это мультимножество.
 }
 
 function find(x) {
