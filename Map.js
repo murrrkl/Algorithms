@@ -15,7 +15,7 @@ for (let mark of my_map.values()) {
   console.log(mark);
 }
 
-console.log("Разменрность = ", my_map.size)
+console.log("Размерность = ", my_map.size)
 
 if (my_map.has("Сидоров")) {
   my_map.delete("Сидоров");
